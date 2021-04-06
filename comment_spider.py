@@ -15,6 +15,8 @@ def sp(count_page, website):
     time.sleep(random.randint(1, 3))
     return jsonlist
 
+
+
 if __name__ == '__main__':
     # base website
     base_website = "www.samsungrecycle.co.uk"
