@@ -1,3 +1,10 @@
+import json
+import random
+import time
+import urllib.request
+from bs4 import BeautifulSoup
+
+
 def sp(count_page, website):
     count_page_str = "page=" + count_page.__str__() + "&"
 
@@ -14,7 +21,6 @@ def sp(count_page, website):
             print(data)
     time.sleep(random.randint(1, 3))
     return jsonlist
-
 
 
 if __name__ == '__main__':
